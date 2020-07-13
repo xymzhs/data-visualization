@@ -1,2 +1,2 @@
-console.log("1");
-export default {}
+const c = () => 3
+export default c
