@@ -1,5 +1,9 @@
-import Test from "./Test.vue"
-export default function(Vue){
+import Test from "./components/Test"
+import Test2 from "./components/Test2"
+import Test3 from "./components/Test3"
 
-    Vue.component(Test.name,Test)
+export default function (Vue){
+    Vue.use(Test)
+    Vue.use(Test2)
+    Vue.use(Test3)
 }

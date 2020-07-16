@@ -1,0 +1,4 @@
+要降级为vue2库
+1.删除"@vue/compiler-sfc": "^3.0.0-beta.20",
+2.安装"vue-template-compiler"
+3."rollup-plugin-vue"降级到5.0
